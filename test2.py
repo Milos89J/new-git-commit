@@ -3,7 +3,7 @@
 # pip install speedtest-cli
 
 #method 1
-import speedtest
+import test2
 
 speedTest = speedtest.Speedtest()
 print(speedTest.get_best_server())
@@ -16,7 +16,7 @@ print(speedTest.upload())
 
 # Method 2
 
-import pyspeedtest
+import test2
 st = pyspeedtest.SpeedTest()
 st.ping()
 st.download()
