@@ -14,7 +14,7 @@ print(speedTest.download())
 #Check upload speed
 print(speedTest.upload())
 
-# Method 2
+# Method 2 rebase
 
 import test2
 st = pyspeedtest.SpeedTest()
